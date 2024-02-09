@@ -1,0 +1,84 @@
+
+class Person {
+    public int id;
+    int salary;
+    String name;
+    public int getSalary(){
+        return salary;
+
+    }
+    public String getName(){
+        return name;
+    }
+    public void setName(String n){
+        name = n;
+    }
+
+    public void printDetails() {
+    }
+}
+
+class CellPhone{
+    public void ringing(){
+        System.out.println("Ringing...");
+    }
+    public void vibrating(){
+        System.out.println("Vibrating...");
+    }
+    public void callFriend(){
+        System.out.println("Calling Miesha...");
+    }
+}
+
+class Square{
+    int side;
+    public int area(){
+        return side*side;
+    }
+    public int perimeter(){
+        return 4*side;
+    }
+}
+
+class Vercetti{
+    public void hit(){
+        System.out.println("Hitting Enemy dot...");
+    }
+
+    public void run(){
+        System.out.println("Running from the enemy...");
+    }
+    public void fire(){
+        System.out.println("Fire the F* Enemy...");
+    }
+}
+
+public class CWH_PS_08 {
+    public static void main(String[] args) {
+        //Problem 1
+        /*
+        Person Pratz = new Person();
+        Pratz.setName("EnjoywithPratz");
+        Pratz.salary= 437;
+        System.out.println(Pratz.getSalary());
+        System.out.println(Pratz.getName());
+
+        //Problem 2
+        CellPhone iphone = new CellPhone();
+        iphone.callFriend();
+        iphone.vibrating();
+        iphone.ringing();
+        */
+
+        //Problem 3
+      //  Square sq = new Square();
+     //   sq.side = 5;
+     //   System.out.println(sq.area());
+     //   System.out.println(sq.perimeter());
+
+        // problem 4
+        Vercetti player1 = new Vercetti();
+        player1.fire();
+        player1.run();
+    }
+}
